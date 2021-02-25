@@ -362,6 +362,7 @@ add_library(vpinmame SHARED
    src/vidhrdw/tms9928a.h
    src/vidhrdw/vector.c
    src/vidhrdw/vector.h
+   src/win32com/PluginInterface.h
    src/window.c
    src/window.h
    src/wpc/allied.c

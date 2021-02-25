@@ -359,6 +359,7 @@ add_library(vpinmame SHARED
    src/vidhrdw/tms9928a.h
    src/vidhrdw/vector.c
    src/vidhrdw/vector.h
+   src/win32com/PluginInterface.h
    src/window.c
    src/window.h
    src/wpc/allied.c
@@ -583,7 +584,7 @@ add_library(vpinmame SHARED
    src/wpc/zacproto.c
    src/wpc/zacsnd.c
    src/wpc/zacsnd.h
-
+   
    src/vc/dirent.h
    src/vc/dirent.c
    src/vc/unistd.h
