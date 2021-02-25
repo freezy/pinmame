@@ -35,7 +35,7 @@ version of SternGB.DLL to give us access to things the TPA interface does not an
 #define GEN_SPA GEN_SAM
 #define SPA_GAME_GB 1
 //Static Variables
-extern int time_to_quit;
+static int time_to_quit;
 void uSleep(const UINT64 u);
 
 /*----------------

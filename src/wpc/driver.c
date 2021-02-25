@@ -3155,4 +3155,10 @@ DRIVERNV(nstrphnf)      //      New Star's Phoenix (French Speech)
 DRIVERNV(nstrphfp)      //      New Star's Phoenix (Free Play)
 DRIVERNV(nstrpffp)      //      New Star's Phoenix (French Speech Free Play)
 
+// ------------------
+// STERN PBA GAMES
+// ------------------
+
+DRIVER(spagb, 100)      // Ghostbusters LE
+
 #endif /* DRIVER_RECURSIVE */
