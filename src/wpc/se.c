@@ -884,3 +884,5 @@ int se_m2sw(int col, int row) { return col*8+(7-row)+1; }
 #else
 #include "sam_original.c" // original internal version (for reference/deprecated)
 #endif
+
+#include "sternpba.c"
