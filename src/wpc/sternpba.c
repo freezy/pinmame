@@ -317,14 +317,14 @@ static MACHINE_INIT(spa) {
 #if (defined(VPINMAME) && !defined(_DEBUG))
 		HINSTANCE hInst;
 #ifndef _WIN64
-		hInst = GetModuleHandle("VPinSPA.dll");
+		hInst = GetModuleHandle("VPinMAME.dll");
 #else
-		hInst = GetModuleHandle("VPinSPA64.dll");  // if ever..
+		hInst = GetModuleHandle("VPinMAME64.dll");  // if ever..
 #endif
 		GetModuleFileName(hInst, spa_dllpath, 1024);
 		*strrchr(spa_dllpath, '\\') = 0;
 #else
-		strcpy(spa_dllpath, "C:\\Visual Pinball\\VPinSPA");
+		strcpy(spa_dllpath, "C:\\Games\\Visual Pinball\\VPinMAME");
 #endif
 
 		sprintf(path, "%s\\spagb100\\SternGB.dll", spa_dllpath);
